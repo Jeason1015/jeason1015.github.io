@@ -5,17 +5,33 @@
         <link>https://jeason1015.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Mon, 09 Jan 2023 19:19:38 +0800</pubDate>
-        <lastBuildDate>Mon, 09 Jan 2023 19:19:38 +0800</lastBuildDate>
+        <pubDate>Mon, 06 Feb 2023 14:25:50 +0800</pubDate>
+        <lastBuildDate>Mon, 06 Feb 2023 14:25:50 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://jeason1015.github.io/2023/02/06/test-pic/</guid>
+            <title>test_pic</title>
+            <link>https://jeason1015.github.io/2023/02/06/test-pic/</link>
+            <pubDate>Mon, 06 Feb 2023 14:25:50 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Hexo是一个静态的博客网站生成器，生成一个博客只需要分分钟的时间就能搞定。&lt;/p&gt;
+&lt;p&gt;Hexo的博文是支持Markdown格式的，发表一篇文章只需要简简单单的几个命令。&lt;/p&gt;
+&lt;p&gt;hexo new ‘文章’就会生成一个名为’文章’的md文件。&lt;/p&gt;
+&lt;p&gt;在图中位置添加描述，分类以及标签，有利于搜索分类。&lt;/p&gt;
+&lt;h1 id=&#34;图片插件&#34;&gt;&lt;a href=&#34;#图片插件&#34; class=&#34;headerlink&#34; title=&#34;图片插件&#34;&gt;&lt;/a&gt;图片插件&lt;/h1&gt;&lt;p&gt;插件hexo-renderer-marked解决了这个问题。可以只用npm install hexo-renderer-marked命令直接安装，之后在config.yaml中更改配置如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs yaml&#34;&gt;&lt;span class=&#34;hljs-attr&#34;&gt;post_asset_folder:&lt;/span&gt; &lt;span class=&#34;hljs-literal&#34;&gt;true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-attr&#34;&gt;marked:&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-attr&#34;&gt;prependRoot:&lt;/span&gt; &lt;span class=&#34;hljs-literal&#34;&gt;true&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-attr&#34;&gt;postAsset:&lt;/span&gt; &lt;span class=&#34;hljs-literal&#34;&gt;true&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;之后就可以在使用&lt;code&gt;![](image.jpg)&lt;/code&gt;的方式愉快的插入图片了。&lt;br&gt;我们做了这么多都是为了方便，那么为什么不再方便一点呢。&lt;/p&gt;
+&lt;h1 id=&#34;hexo与Typora的完美结合&#34;&gt;&lt;a href=&#34;#hexo与Typora的完美结合&#34; class=&#34;headerlink&#34; title=&#34;hexo与Typora的完美结合&#34;&gt;&lt;/a&gt;hexo与Typora的完美结合&lt;/h1&gt;&lt;p&gt;上述是从文章资源文件夹中引用图片，前提是先将图片放入到文章资源文件夹，如果图片数量众多的话，一张一张的放很影响效率。但是不用怕，我们有很方便的解决方法。&lt;br&gt;Typora是我非常喜欢的Markdown文本编辑器，在之前的文章中也介绍过一点。&lt;br&gt;Typora对于插入图片的支持做得非常好，在文件-&amp;gt;偏好设置或者直接&amp;lt;C-,&amp;gt;进入设置。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/test-pic/image-20230206143529093.png&#34; alt=&#34;image-20230206143529093&#34;&gt;&lt;/p&gt;
+&lt;p&gt;更改插入图片的路径为如下：&lt;/p&gt;
+&lt;img src=&#34;/2023/02/06/test-pic/image-20230206143619460.png&#34; alt=&#34;image-20230206143619460&#34; style=&#34;zoom:50%;&#34;&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://jeason1015.github.io/2023/01/09/thisIsTree/</guid>
             <title>thisIsTree</title>
             <link>https://jeason1015.github.io/2023/01/09/thisIsTree/</link>
             <pubDate>Mon, 09 Jan 2023 19:19:38 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;dididid&lt;br&gt;
-&lt;img src=&#34;/2023/01/09/thisIsTree/2023-01-09-19-20-11.png&#34; alt&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/2023/01/09/thisIsTree/2023-01-09-20-26-55.png&#34; alt=&#34;第二章图片&#34;&gt;&lt;br&gt;
- lalalla&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;dididid&lt;br&gt;&lt;img src=&#34;/2023-01-09-19-20-11.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/2023-01-09-20-26-55.png&#34; alt=&#34;第二章图片&#34;&gt;&lt;br&gt;lalalla&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -24,18 +40,17 @@
             <link>https://jeason1015.github.io/2023/01/09/hello-world/</link>
             <pubDate>Mon, 09 Jan 2023 16:07:03 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo new &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo new &lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo server&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo server&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo generate&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo generate&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo deploy&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs bash&#34;&gt;$ hexo deploy&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
  ]]></description>
         </item>
