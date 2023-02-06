@@ -20,9 +20,19 @@
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs yaml&#34;&gt;&lt;span class=&#34;hljs-attr&#34;&gt;post_asset_folder:&lt;/span&gt; &lt;span class=&#34;hljs-literal&#34;&gt;true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;hljs-attr&#34;&gt;marked:&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-attr&#34;&gt;prependRoot:&lt;/span&gt; &lt;span class=&#34;hljs-literal&#34;&gt;true&lt;/span&gt;&lt;br&gt;  &lt;span class=&#34;hljs-attr&#34;&gt;postAsset:&lt;/span&gt; &lt;span class=&#34;hljs-literal&#34;&gt;true&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;之后就可以在使用&lt;code&gt;![](image.jpg)&lt;/code&gt;的方式愉快的插入图片了。&lt;br&gt;我们做了这么多都是为了方便，那么为什么不再方便一点呢。&lt;/p&gt;
 &lt;h1 id=&#34;hexo与Typora的完美结合&#34;&gt;&lt;a href=&#34;#hexo与Typora的完美结合&#34; class=&#34;headerlink&#34; title=&#34;hexo与Typora的完美结合&#34;&gt;&lt;/a&gt;hexo与Typora的完美结合&lt;/h1&gt;&lt;p&gt;上述是从文章资源文件夹中引用图片，前提是先将图片放入到文章资源文件夹，如果图片数量众多的话，一张一张的放很影响效率。但是不用怕，我们有很方便的解决方法。&lt;br&gt;Typora是我非常喜欢的Markdown文本编辑器，在之前的文章中也介绍过一点。&lt;br&gt;Typora对于插入图片的支持做得非常好，在文件-&amp;gt;偏好设置或者直接&amp;lt;C-,&amp;gt;进入设置。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/test-pic/image-20230206143529093.png&#34; alt=&#34;image-20230206143529093&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;/2023/02/06/test-pic/image-20230206143529093.png&#34; alt=&#34;image-20230206143529093&#34; style=&#34;zoom:50%;&#34;&gt;
+
 &lt;p&gt;更改插入图片的路径为如下：&lt;/p&gt;
 &lt;img src=&#34;/2023/02/06/test-pic/image-20230206143619460.png&#34; alt=&#34;image-20230206143619460&#34; style=&#34;zoom:50%;&#34;&gt;
+
+&lt;p&gt;最后图片的路径要变成这个样子&lt;/p&gt;
+&lt;img src=&#34;/2023/02/06/test-pic/image-20230206144003781.png&#34; alt=&#34;image-20230206144003781&#34; style=&#34;zoom:50%;&#34;&gt;
+
+&lt;figure class=&#34;highlight abnf&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;code class=&#34;hljs abnf&#34;&gt;&amp;lt;img src&lt;span class=&#34;hljs-operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;test-pic/image-20230206144003781.png&amp;quot;&lt;/span&gt; alt&lt;span class=&#34;hljs-operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;image-20230206144003781&amp;quot;&lt;/span&gt; style&lt;span class=&#34;hljs-operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;hljs-string&#34;&gt;&amp;quot;zoom:50%;&amp;quot;&lt;/span&gt; /&amp;gt;&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;写hexo博客还是推荐使用typora来进行图片的插入，vs的步骤太繁琐了。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
